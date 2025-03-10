@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<test thread-count="5" parallel="tests" name="TestRunner1">
+		<classes>
+			<class
+				name="com.qspider.vtiger.com.test.cases.TestNG001_CreateOrganization" />
+		</classes>
+	</test>
+	<test name="TestRunner2">
+		<classes>
+			<class
+				name="com.qspider.vtiger.com.test.cases.TestNG002_CreateProduct" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

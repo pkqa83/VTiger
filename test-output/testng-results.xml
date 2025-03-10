@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-03T16:40:17 IST" name="Default suite" finished-at="2025-03-03T16:41:50 IST" duration-ms="92545">
+    <groups>
+    </groups>
+    <test started-at="2025-03-03T16:40:17 IST" name="Default test" finished-at="2025-03-03T16:41:50 IST" duration-ms="92545">
+      <class name="com.qspider.vtiger.com.test.cases.TestNG003_CreateCampaign">
+        <test-method is-config="true" signature="BS()[pri:0, instance:com.qspider.vtiger.com.test.cases.TestNG003_CreateCampaign@3ba987b8]" started-at="2025-03-03T16:40:17 IST" name="BS" finished-at="2025-03-03T16:40:17 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="BT()[pri:0, instance:com.qspider.vtiger.com.test.cases.TestNG003_CreateCampaign@3ba987b8]" started-at="2025-03-03T16:40:18 IST" name="BT" finished-at="2025-03-03T16:40:18 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BT -->
+        <test-method is-config="true" signature="BC()[pri:0, instance:com.qspider.vtiger.com.test.cases.TestNG003_CreateCampaign@3ba987b8]" started-at="2025-03-03T16:40:18 IST" name="BC" finished-at="2025-03-03T16:40:23 IST" duration-ms="4505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:com.qspider.vtiger.com.test.cases.TestNG003_CreateCampaign@3ba987b8]" started-at="2025-03-03T16:40:23 IST" name="BM" finished-at="2025-03-03T16:41:16 IST" duration-ms="53007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="TestNG003_CreateCampaign()[pri:0, instance:com.qspider.vtiger.com.test.cases.TestNG003_CreateCampaign@3ba987b8]" started-at="2025-03-03T16:41:16 IST" name="TestNG003_CreateCampaign" finished-at="2025-03-03T16:41:45 IST" duration-ms="29035" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failing the TC intentionally to validate the screenshot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failing the TC intentionally to validate the screenshot
+at org.testng.Assert.fail(Assert.java:111)
+at com.qspider.vtiger.com.test.cases.TestNG003_CreateCampaign.TestNG003_CreateCampaign(TestNG003_CreateCampaign.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNG003_CreateCampaign -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:com.qspider.vtiger.com.test.cases.TestNG003_CreateCampaign@3ba987b8]" started-at="2025-03-03T16:41:45 IST" name="AM" finished-at="2025-03-03T16:41:49 IST" duration-ms="3767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:com.qspider.vtiger.com.test.cases.TestNG003_CreateCampaign@3ba987b8]" started-at="2025-03-03T16:41:49 IST" name="AC" finished-at="2025-03-03T16:41:50 IST" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+        <test-method is-config="true" signature="AT()[pri:0, instance:com.qspider.vtiger.com.test.cases.TestNG003_CreateCampaign@3ba987b8]" started-at="2025-03-03T16:41:50 IST" name="AT" finished-at="2025-03-03T16:41:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT -->
+        <test-method is-config="true" signature="AS()[pri:0, instance:com.qspider.vtiger.com.test.cases.TestNG003_CreateCampaign@3ba987b8]" started-at="2025-03-03T16:41:51 IST" name="AS" finished-at="2025-03-03T16:41:51 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- com.qspider.vtiger.com.test.cases.TestNG003_CreateCampaign -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

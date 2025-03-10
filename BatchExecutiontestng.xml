@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.qspider.vtiger.com.test.cases.TestNG001_CreateOrganization" />
+			<class name="com.qspider.vtiger.com.test.cases.TestNG002_CreateProduct" />
+			<class name="com.qspider.vtiger.com.test.cases.TestNG003_CreateCampaign" />
+			<class name="com.qspider.vtiger.com.test.cases.TestNG004_CreateCampaignWithProduct" />
+			<class name="com.qspider.vtiger.com.test.cases.TestNG005_CreateAndDeleteProduct" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+

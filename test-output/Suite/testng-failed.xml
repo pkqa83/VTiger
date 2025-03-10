@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestRunner2(failed)">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="com.qspider.vtiger.com.test.cases.TestNG002_CreateProduct">
+        <methods>
+          <include name="AC"/>
+          <include name="BT"/>
+          <include name="AS"/>
+          <include name="AT"/>
+          <include name="BC"/>
+          <include name="BS"/>
+          <include name="BM"/>
+          <include name="TestNG002_CreateProduct"/>
+          <include name="AM"/>
+        </methods>
+      </class> <!-- com.qspider.vtiger.com.test.cases.TestNG002_CreateProduct -->
+    </classes>
+  </test> <!-- TestRunner2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
